@@ -1,0 +1,308 @@
+@media only screen and (max-width:1024px) {
+    .main-navbar {
+        justify-content: space-around;
+    }
+
+    .service-subhead {
+        font-size: 22px;
+        list-style: 29px;
+    }
+
+    .lorem-text {
+        font-size: 15px;
+        line-height: 24px;
+    }
+
+    .col-text-1 {
+        width: 55%;
+        padding: 0 50px 20px 40px;
+    }
+
+    .col-img-1 {
+        width: 8%;
+    }
+
+    .cricle,
+    .img-div img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .contact-section {
+        padding: 80px 20px;
+    }
+
+}
+
+
+@media only screen and (max-width:768px) {
+
+    .main-navbar {
+        justify-content:space-between;
+        padding:23px 30px;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .nav-links.active {
+        display: flex;
+        flex-direction: column;
+        background-color: #212925;
+        position: absolute;
+        top: 70px;
+        left:0;
+        width: 100%;
+        z-index: 1000;
+    }
+
+    .nav-links ul {
+        padding: 10px;
+        display: block;
+    }
+
+    .nav-links li {
+        margin: 15px 0;
+    }
+
+
+    .toggle-btn {
+        display: block;
+    }
+
+    .service-section {
+        padding: 80px 32px;
+    }
+
+    .main-service-row {
+        flex-direction: column;
+    }
+
+    .row-div-col {
+        width: 100%;
+        padding-bottom: 63px;
+    }
+
+    .portfolio-section{
+        padding:80px 20px;
+    }
+    
+    .timeline::before {
+        left: 15%;
+    }
+
+    .img-div img,
+    .cricle {
+        width: 100px;
+        height: 100px;
+        font-size: 13px;
+        line-height: 24px;
+        margin: 0;
+    }
+
+    .cricle-text {
+        width: 30%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .col-text-1 {
+        width: 70%;
+        text-align: left;
+        padding: 0;
+    }
+
+    .col-text-2 {
+        width: 70%;
+        padding: 0;
+    }
+
+    .col-img-2,
+    .col-img-1 {
+        width: 30%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .div {
+        width: 0%;
+    }
+
+
+    .col-text-1 {
+        float: right;
+    }
+
+    .form-row {
+        flex-direction: column;
+    }
+
+
+    .contact-section {
+        padding: 80px 120px;
+    }
+
+    .row-col-form {
+        width: 100%;
+    }
+
+
+    .text-row {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .copy-brand {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+.web-page-col{
+    width:50%;
+    padding-right:20px;
+}
+
+}
+
+@media only screen and (max-width:425px) {
+
+    .nav-brand a {
+        font-size: 22px;
+    }
+
+    .toggle-btn {
+        font-size: 15px;
+    }
+
+    .heading {
+        font-size: 30px;
+    }
+
+    .subheading {
+        font-size: 57px;
+    }
+
+    .portfolio-section {
+        padding: 80px 15px;
+    }
+
+    .main-heading {
+        font-size: 40px;
+    }
+
+    .website-page-row-2,
+    .website-page-row {
+        flex-direction: column;
+    }
+
+    .web-page-col {
+        width: 100%;
+    }
+
+    .time-text-1,
+    .time-head-1 {
+        font-size: 22px;
+        line-height: 29px;
+    }
+
+    .col-lorem {
+        font-size: 16px;
+    }
+
+    .about-section {
+        padding: 80px 16px;
+    }
+
+    .col-text-2,
+    .col-text-1 {
+        padding: 0 22px;
+    }
+
+    .cricle,
+    .img-div img {
+        width: 80px;
+        height: 80px;
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+
+    .contact-section {
+        padding: 40px 20px;
+    }
+
+    .main-heading-contact {
+        font-size: 34px;
+        padding: 27px 0 18px 0;
+    }
+
+    .btn-primary {
+        font-size: 16px;
+        padding: 20px 40px;
+        margin-bottom: 25px;
+    }
+
+}
+
+@media only screen and (max-width:375px) {
+
+    .nav-brand a {
+        font-size: 20px;
+    }
+
+    .toggle-btn {
+        font-size: 13px;
+    }
+
+    .heading {
+        font-size: 26px;
+    }
+
+    .subheading {
+        font-size: 55px;
+    }
+
+    .main-heading {
+        font-size: 37px;
+    }
+}
+
+@media only screen and (max-width:320px) {
+
+    .nav-brand a {
+        font-size: 18px;
+    }
+
+    .toggle-btn {
+        font-size: 10px;
+    }
+
+    .heading {
+        font-size: 20px;
+    }
+
+    .subheading {
+        font-size: 47px;
+    }
+
+    .main-heading {
+        font-size: 34px;
+    }
+
+    .head-text {
+        font-size: 16px;
+    }
+
+    .cricle,
+    .img-div img {
+        width: 70px;
+        height: 70px;
+        font-size: 10px;
+        line-height: 17px;
+    }
+
+
+
+}
